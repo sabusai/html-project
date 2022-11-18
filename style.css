@@ -1,0 +1,47 @@
+
+body{
+    background: linear-gradient(to right, rgb(87, 87, 194), purple);
+    height: 400px;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.img img{
+    height:100px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-direction: normal;
+}
+@keyframes example{
+   0%{
+    right:20px; bottom:20px;
+   }
+   100%{
+    left: 20px; top:20px;
+   }
+}
+.head h2{
+    color: white;
+}
+.box img{
+    color: white;
+}
+.buttn{
+    background-color: rgb(154, 66, 66);
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+
